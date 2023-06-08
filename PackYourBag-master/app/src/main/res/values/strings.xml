@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Bag</string>
+    <string name="et_enter_item_to_add">Enter item to add...</string>
+    <string name="contact_us">Contact Us</string>
+</resources>
