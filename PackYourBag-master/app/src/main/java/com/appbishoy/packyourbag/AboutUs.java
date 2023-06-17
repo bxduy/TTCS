@@ -32,20 +32,20 @@ public class AboutUs extends AppCompatActivity {
         imgYoutube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navigateToUri("https://www.youtube.com/channel/UCtFaJlm-G0JvtVeoA1xMg8A");
+                navigateToUri("https://www.facebook.com/buixuan.duy.7");
             }
         });
 
         imgInstagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navigateToUri("https://www.youtube.com/channel/UCtFaJlm-G0JvtVeoA1xMg8A");
+                navigateToUri("https://www.facebook.com/buixuan.duy.7");
             }
         });
         imgTwitter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navigateToUri("https://www.youtube.com/channel/UCtFaJlm-G0JvtVeoA1xMg8A");
+                navigateToUri("https://www.facebook.com/buixuan.duy.7");
             }
         });
 
@@ -53,7 +53,7 @@ public class AboutUs extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("mailto:"+"beshoypauls810@gmail.com"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("mailto:"+"buixuanduy1301@gmail.com"));
                     intent.putExtra(Intent.EXTRA_SUBJECT,"From MyBag App");
                     startActivity(intent);
                 }catch (ActivityNotFoundException ex){
